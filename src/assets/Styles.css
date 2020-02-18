@@ -1,0 +1,69 @@
+body { background-color: black }
+#app {
+    height: 600px;
+    width: 500px;
+    border: solid #1e90ff 3px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: grid;
+    grid-template-rows: auto 60px;
+    background-color: #ffffff;
+}
+
+.Quiz {
+    display: grid;
+    grid-template-rows: 60px repeat(3, 1fr);
+    gap: 3px;
+    background-color: #1e90ff;
+}
+
+.Navigation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: solid #1e90ff 3px;
+}
+
+.navigationButton {
+    border: none;
+    outline: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 40px;
+    cursor: pointer;
+    font-family: 'Frijole', cursive;
+}
+.navigationButton:nth-child(even) {
+    border-left: solid #1e90ff 3px;
+    background-color: #008000;
+}
+
+.Answer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e90ff;
+    font-family: 'Frijole', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+.Question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Frijole', cursive;
+    font-size: 30px;
+}
+.answerSelected {
+    background-color: green;;
+}
+
+.answerDisabled {
+    background-color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}

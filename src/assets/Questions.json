@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "Choose your brand",
+        "Answers": [
+            { "ID": 0, "Answer": "Samsung", "Selected": false },
+            { "ID": 0, "Answer": "Iphone", "Selected": false },
+            { "ID": 0, "Answer": "Huawei", "Selected": false }
+        ]
+    },
+    {
+        "Title": "Color",
+        "Answers": [
+            { "ID": 1, "Answer": "Grey", "Selected": false },
+            { "ID": 1, "Answer": "Black", "Selected": false },
+            { "ID": 1, "Answer": "White", "Selected": false }
+        ]
+    }
+]
