@@ -36,7 +36,6 @@ export default {
       }
       this.selectedAnswers.push(Answer)
       this.$store.commit('orderSelected')
-      console.log(this.selectedAnswers)
     },
     checkIfAnswerIsEmpty (Answer) {
       if (this.Page === 0) {

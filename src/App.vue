@@ -11,7 +11,6 @@ export default {
   name: 'App',
   components: {
     'Navigation': Navigation
-  },
-  created () { alert('Check the console to see that all works well! :)') }
+  }
 }
 </script>

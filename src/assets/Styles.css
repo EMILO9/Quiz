@@ -67,3 +67,17 @@ body { background-color: black }
     background-color: rgb(0, 0, 0);
     pointer-events: none;
 }
+.Results {
+    display: grid;
+    grid-auto-rows: min-content;
+}
+.Result {
+    background-color: #cfcfcf;
+    text-align: center;
+    height: min-content;
+    padding: 10px;
+    color: #1e90ff;
+}
+.Result:nth-child(even) {
+    background-color: #a8a8a8;
+}
